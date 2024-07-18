@@ -25,8 +25,7 @@ function Hero() {
         <div className={styles.colorModeContainer}>
             <img className={styles.hero} src={heroImage} alt="Profile picture of Eriberto Lima" />
             <img className={styles.colorMode} src={themeIcon} alt="Color mode icon"
-                onClick={toggleTheme}
-            />
+                onClick={toggleTheme}/>
         </div>
         <div className={styles.info}>
             <h1>Eriberto <br /> Lima</h1>
