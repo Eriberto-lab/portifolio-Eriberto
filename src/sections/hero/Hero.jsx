@@ -10,6 +10,8 @@ import githubDark from '../../assets/github-dark.svg';
 import whatsappDark from '../../assets/whatsapp-light.svg';
 import whatsappLight from '../../assets/whatsapp-dark.svg';
 import CV from '../../assets/Profile (1).pdf';
+import photo from '../../assets/eriberto-photo.jpeg';
+import palestraPhoto from '../../assets/palestra-photo.jpg';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -23,7 +25,7 @@ function Hero() {
   return (
     <section className={styles.container} id='hero'>
         <div className={styles.colorModeContainer}>
-            <img className={styles.hero} src={heroImage} alt="Profile picture of Eriberto Lima" />
+            <img className={styles.hero} src={photo} alt="Profile picture of Eriberto Lima" />
             <img className={styles.colorMode} src={themeIcon} alt="Color mode icon"
                 onClick={toggleTheme}/>
         </div>

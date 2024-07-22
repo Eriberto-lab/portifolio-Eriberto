@@ -9,6 +9,7 @@
   
     .hero {
       max-width: 200px;
+      border-radius: 100px;
     }
   
     span {
@@ -88,6 +89,7 @@
       .hero {
         max-width: 350px;
         width: 350px;
+       
       }
     }
   }
