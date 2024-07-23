@@ -26,7 +26,7 @@ function Projects() {
             props={viber}
             link={"https://github.com/Eriberto-lab/Hackathon-Orange-Juice-2024"}
             h3={"Orange Portfólio"}
-            p={"O Orange Portfólio, é uma aplicação web focada na gestão de portfolios para a comunidade de designers, onde os usuários podem adicionar projetos em seu portfolio e buscar inspirações de outros designers dentro da plataforma."}
+            p={"O Orange Portfólio, é uma aplicação web focada na gestão de portfolios para a comunidade de designers."}
             />
             
            

@@ -31,7 +31,7 @@ function Skills() {
         <SkillList props={checkMarkIcon} skill={"Docker"} />
       </div>
       <hr />
-      <h3>Productive</h3>
+      <h3>Productivity</h3>
       <br />
       <div className={styles.skillList}>
         <SkillList props={checkMarkIcon} skill={"Git"} />
