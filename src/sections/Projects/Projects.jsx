@@ -20,15 +20,22 @@ function Projects() {
             props={viber}
             link={"https://github.com/Eriberto-lab/Futebol_Leaderboard"}
             h3={"Futebol Mania"}
-            p={"Um site cheio das informações sobre jogos de futebol"}
+            p={"Um site cheio das informações"}
             />
              <ProjectsCard 
             props={viber}
             link={"https://github.com/Eriberto-lab/Hackathon-Orange-Juice-2024"}
             h3={"Orange Portfólio"}
-            p={"O Orange Portfólio, é uma aplicação web focada na gestão de portfolios para a comunidade de designers."}
+            p={"O Orange Portfólio"}
             />
-            
+
+<ProjectsCard 
+            props={viber}
+            link={"https://github.com/Eriberto-lab/Hackathon-Orange-Juice-2024"}
+            h3={"Orange Portfólio"}
+            p={"O Orange Portfólio"}
+            />
+          
            
         </div>
     </section>
