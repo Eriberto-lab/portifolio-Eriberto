@@ -9,7 +9,7 @@ import githubDark from "../../assets/github-dark.svg";
 import whatsappLight from "../../assets/whatsapp-dark.svg";
 import light from "../../assets/whatsapp-light-light.svg";
 import CV from "../../assets/Profile (1).pdf";
-import photo from "../../assets/eriberto-photo.jpeg";
+import photoAnime from "../../assets/eriberto-photo.jpeg";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -19,6 +19,8 @@ function Hero() {
   const whatsappIcon = theme === "light" ? whatsappLight : light;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
+
+  const photo = photoAnime;
 
   return (
     <section className={styles.container} id="hero">
@@ -55,8 +57,7 @@ function Hero() {
           </a>
         </span>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit, amet
-          consectetur adipisicing elit, psum dolor sit, amet consec.
+        Turning bugs into features and hunting for the strongest coffee in the galaxy! 
         </p>
         <a href={CV} target="_blank" download>
           <button className="hover">Resume</button>

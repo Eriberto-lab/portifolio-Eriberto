@@ -21,7 +21,6 @@ function Skills() {
         <SkillList props={checkMarkIcon} skill={"Javascript"} />
         <SkillList props={checkMarkIcon} skill={"CSS"} />
         <SkillList props={checkMarkIcon} skill={"React"} />
-        <SkillList props={checkMarkIcon} skill={"CSS"} />
         <SkillList props={checkMarkIcon} skill={"Redux"} />
         <SkillList props={checkMarkIcon} skill={"Jest"} />
       </div>
